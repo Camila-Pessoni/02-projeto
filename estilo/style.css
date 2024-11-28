@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
     min-height: 50px;
     text-align: center;
     padding: 30px;
@@ -34,7 +34,7 @@ header {
 
 header  > h1 {
     color: white;    
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     font-size: 4em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.400);
 }
@@ -74,16 +74,13 @@ main {
 main h1 {
     font-family: var(--fonte-titulo);
     color: var(--cor4);
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.200);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.100);
 }
 
 main h2 {
     font-family: var(--fonte-titulo);
-    color: var(--cor3);
-    font-size: 1.3em;
-    font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor0), transparent);
-    text-indent: 8px;
+    color: var(--cor4);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.100);
 }
 
 main p {
